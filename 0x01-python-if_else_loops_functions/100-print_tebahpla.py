@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-for i in range(122, 96, -2):
-    print(chr(i), end='')
-    print(chr(i-1), end='')
+for ch in reversed(range(97, 123)):
+    print("{:c}".format(ch if (ch % 2 == 0) else (ch - 32)), end='')
