@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-def unique_elements(set1, set2):
-    unique_elements = set1.symmetric_difference(set2)
-    return unique_elements
+def elements_in_one_set(set1, set2):
+    return set1 ^ set2
