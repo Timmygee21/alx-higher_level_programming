@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Define a class Square."""
 
-#just ccruising
+
 class Square:
     """Represent a square."""
 
