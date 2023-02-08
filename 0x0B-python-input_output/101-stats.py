@@ -56,8 +56,3 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print_stats(size, status_codes)
         raise
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Pri
